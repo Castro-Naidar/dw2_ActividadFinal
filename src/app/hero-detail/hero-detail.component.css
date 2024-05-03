@@ -1,0 +1,33 @@
+/* Estilos CSS privados de HeroesDetailComponent */
+label {
+    color: #ffffff;
+    font-weight: bold;
+  }
+  /*modificacion de colores y fuente del input*/
+  input {
+    background-color: #76b900;
+    font-size: 1em;
+    padding: .5rem;
+    font-weight: bold;
+  }
+  /*modificacion de colores del boton volver*/
+  button {
+    margin-top: 20px;
+    background-color: #76b900;
+    padding: 1rem;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  button:hover {
+    border-color: #88d403;
+  }
+  button:disabled {
+    background-color: #eee;
+    color: #ccc;
+    cursor: auto;
+  }
+  /*añadimos un estilo para el div del html*/
+  div{
+    color: #fffffe;
+    font-weight: bold;
+  }
