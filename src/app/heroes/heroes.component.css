@@ -1,0 +1,55 @@
+/* Estilos CSS privados de HeroesComponent */
+.heroes {
+  margin: 0 0 2em 0;
+  list-style-type: none;
+  padding: 0;
+  width: 15em;
+}
+.heroes li {
+  position: relative;
+  cursor: pointer;
+}
+
+.heroes li:hover {
+  left: .1em;
+}
+/*modificacion de colores y fuente de los enlaces en la pestaña graficas*/
+.heroes a {
+  color: #000000;
+  text-decoration: none;
+  background-color: #EEE;
+  margin: .5em;
+  padding: .3em 0;
+  height: 1.6em;
+  border-radius: 4px;
+  display: block;
+  width: 120%;
+  font-weight: bold;
+}
+
+.heroes a:hover {
+  color: #76b900;
+  background-color: #e6e6e6;
+}
+
+.heroes a:active {
+  background-color: #ffffff;
+  color: #fafafa;
+}
+
+.heroes .badge {
+  display: inline-block;
+  font-size: small;
+  color: rgb(0, 0, 0);
+  padding: 0.8em 0.7em 0 0.7em;
+  background-color: #76b900;
+  line-height: 1em;
+  position: relative;
+  left: -1px;
+  top: -4px;
+  height: 1.8em;
+  min-width: 16px;
+  text-align: right;
+  margin-right: .8em;
+  border-radius: 4px 0 0 4px;
+}
